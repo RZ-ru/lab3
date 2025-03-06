@@ -9,9 +9,9 @@
 
 // Базовый класс "Фильм"
 class Movie {
-protected:
+ protected:
     std::string title; // Название фильма
-public:
+ public:
     Movie(const std::string& t) : title(t) {}
     virtual ~Movie() = default;
     virtual void print() const = 0;
@@ -21,7 +21,7 @@ public:
 // Игровой фильм
 class FeatureFilm : public Movie {
     std::string director;
-public:
+ public:
     FeatureFilm(const std::string& t, const std::string& d) : Movie(t), director(d) {}
     void print() const override {
         std::cout << "Игровой фильм: " << title << ", Режиссер: " << director << '\n';
@@ -34,7 +34,7 @@ public:
 // Мультфильм
 class Cartoon : public Movie {
     std::string animationType;
-public:
+ public:
     Cartoon(const std::string& t, const std::string& type) : Movie(t), animationType(type) {}
     void print() const override {
         std::cout << "Мультфильм: " << title << ", Тип: " << animationType << '\n';
@@ -48,7 +48,7 @@ public:
 class TVSeries : public Movie {
     std::string director;
     int episodes;
-public:
+ public:
     TVSeries(const std::string& t, const std::string& d, int e) : Movie(t), director(d), episodes(e) {}
     void print() const override {
         std::cout << "Сериал: " << title << ", Режиссер: " << director << ", Серий: " << episodes << '\n';
