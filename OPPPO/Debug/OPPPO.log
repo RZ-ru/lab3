@@ -1,0 +1,22 @@
+﻿  1lab.cpp
+C:\Users\roman\source\repos\OPPPO\OPPPO\1lab.cpp(101,32): error C2039: "quoted": не является членом "std".
+      R:\Programs\VS Studio community 22\VC\Tools\MSVC\14.42.34433\include\algorithm(260,1):
+       см. объявление "std"
+  
+C:\Users\roman\source\repos\OPPPO\OPPPO\1lab.cpp(101,32): error C3861: quoted: идентификатор не найден
+C:\Users\roman\source\repos\OPPPO\OPPPO\1lab.cpp(101,20): error C2593: неоднозначный "оператор >>"
+      R:\Programs\VS Studio community 22\VC\Tools\MSVC\14.42.34433\include\istream(303,39):
+      может быть "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)"
+      R:\Programs\VS Studio community 22\VC\Tools\MSVC\14.42.34433\include\istream(190,39):
+      или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))"
+      R:\Programs\VS Studio community 22\VC\Tools\MSVC\14.42.34433\include\istream(185,39):
+      или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+      R:\Programs\VS Studio community 22\VC\Tools\MSVC\14.42.34433\include\istream(180,39):
+      или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))"
+      R:\Programs\VS Studio community 22\VC\Tools\MSVC\14.42.34433\include\istream(854,31):
+      или       "std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)"
+      R:\Programs\VS Studio community 22\VC\Tools\MSVC\14.42.34433\include\istream(859,31):
+      или       "std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)"
+      C:\Users\roman\source\repos\OPPPO\OPPPO\1lab.cpp(101,20):
+      при попытке сопоставить список аргументов "(std::istringstream, unknown-type)"
+  
